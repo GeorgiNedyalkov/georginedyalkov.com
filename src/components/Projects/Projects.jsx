@@ -4,7 +4,7 @@ import Project from "./Project/Project";
 
 const Projects = ({ projects }) => {
   return (
-    <div>
+    <section>
       <h2>Projects</h2>
       <div className="projects">
         <ul>
@@ -15,7 +15,7 @@ const Projects = ({ projects }) => {
           ))}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };
 

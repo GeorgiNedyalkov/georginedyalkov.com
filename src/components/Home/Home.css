@@ -1,24 +1,27 @@
 .hero {
     padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero__img-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+     gap: 10px;
 }
 
 .hero__img {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
 .projects ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
 }
 
 @media screen and (min-width: 760px) {
@@ -28,5 +31,13 @@
         align-items: center;
         justify-content: center;
     }
-    
+}
+
+.gitHub {
+    color: var(--primary-indigo-500);
+    width: 55px;
+}
+
+.gitHub:hover {
+    border-bottom: 2px solid var(--primary-indigo-700);
 }
