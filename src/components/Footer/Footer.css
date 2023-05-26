@@ -1,0 +1,13 @@
+.footer {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

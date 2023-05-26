@@ -1,0 +1,10 @@
+.navbar__items {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
