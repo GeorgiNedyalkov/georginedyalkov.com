@@ -1,7 +1,6 @@
 .hero {
     padding: 3rem 0rem;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -40,4 +39,9 @@
 
 .gitHub:hover {
     border-bottom: 2px solid var(--primary-indigo-700);
+}
+
+.links {
+    display: flex;
+    gap: 20px;
 }

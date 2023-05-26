@@ -21,10 +21,12 @@ const Home = ({ projects }) => {
             src="https://avatars.githubusercontent.com/u/51360924?v=4"
             alt="Georgi Nedyalkov"
           />
-          <button className="btn cv">View CV</button>
-          <a className="gitHub" href="https://github.com/GeorgiNedyalkov">
-            GitHub
-          </a>
+          <div className="links">
+            <button className="btn cv">View CV</button>
+            <a className="gitHub" href="https://github.com/GeorgiNedyalkov">
+              GitHub
+            </a>
+          </div>
         </div>
       </section>
       <Projects projects={projects} />
