@@ -2,50 +2,56 @@ import { useState } from "react";
 
 import "./ContactForm.css";
 
+const INITIAL_FORM_DATA = {
+  name: "",
+  email: "",
+  message: "",
+};
+
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [formData, setFormData] = useState(INITIAL_FORM_DATA);
+  const [status, setStatus] = useState({});
 
-  const onNameChange = (e) => {
-    setName(e.target.value);
+  const onFormChange = (e) => {
+    setFormData((state) => ({
+      ...state,
+      [e.target.name]: e.target.value,
+    }));
   };
 
-  const onEmailChange = (e) => {
-    setEmail(e.target.value);
+  const onContactSubmit = (e) => {
+    console.log(formData.message);
   };
-
-  const onMessageChange = (e) => {
-    setMessage(e.target.value);
-  };
-
-  const onContactSubmit = (e) => {};
 
   return (
     <section id="contact-form">
       <div className="container">
-        <form id="contact" method="POST" onSubmit={onContactSubmit}>
+        <form
+          id="contact"
+          action="mailto:gnedyalkov94@gmail.com"
+          onSubmit={onContactSubmit}
+        >
           <h1>Contact me</h1>
           <label htmlFor="Email">Name:</label>
           <input
-            value={name}
-            onChange={onNameChange}
+            value={formData.name}
+            onChange={onFormChange}
             type="text"
             name="name"
             id="name"
           />
           <label htmlFor="Email">Email:</label>
           <input
-            value={email}
-            onChange={onEmailChange}
+            value={formData.email}
+            onChange={onFormChange}
             type="text"
             name="email"
             id="email"
           />
           <label htmlFor="message">Message:</label>
           <textarea
-            value={message}
-            onChange={onMessageChange}
+            value={formData.message}
+            onChange={onFormChange}
             name="message"
             id="message"
           ></textarea>
