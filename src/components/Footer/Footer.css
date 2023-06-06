@@ -1,6 +1,17 @@
 .footer {
-    padding: 3rem;
     display: flex;
+    flex-direction: column;
+}
+
+.footer_top {
+  display: flex; 
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.footer_bottom {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -9,5 +20,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
+}
+
+.footer__links h3:hover {
+  transition: all 0.2s ease-in;
+  color: #4338ca;
+}
+
+.social_media_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.social_media_links a:hover {
+  transition: all 0.2s ease-in;
+  color: #4338ca;
 }

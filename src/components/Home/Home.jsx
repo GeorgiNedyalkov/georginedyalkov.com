@@ -70,20 +70,21 @@ const Home = ({ projects }) => {
         <div id="front-end">
           <h2>Front-End</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-            fugiat. Voluptates pariatur ratione iure deleniti! Beatae culpa
-            minus soluta dolorum id minima. Quibusdam corrupti tempora iure, ea
-            aperiam cum velit. Sunt architecto ipsum, vero, dolore delectus est
-            eligendi nostrum hic asperiores, reprehenderit earum? Ex
-            repudiandae, eos autem incidunt, nulla hic maiores distinctio
-            corrupti, ipsam magni nobis consectetur blanditiis eius veritatis.
-            Vel obcaecati blanditiis ipsam, incidunt iure fuga quia. Neque nulla
-            sit eum, dolor iusto natus nihil
+            After learning the basics of HTML5, CSS3, and JavaScript, I started
+            learning React UI. To create a website however I had to learn about
+            design and user experience, which is why I also learned how to use
+            Figma and Excalidraw to create wireframes and mockups.
           </p>
-          <img className="about_image" src={FrontEnd} alt="" />
+          <p>
+            Given the majority of a front-end developer job is creating a web
+            app from a given design, every day I do little projects, separated
+            from my personal projects, which help me learn how to create common
+            features.
+          </p>
+          <img className="about_image" src={FrontEnd} alt="front end image" />
         </div>
         <div id="back-end">
-          <img className="about_image" src={BackEnd} alt="" />
+          <img className="about_image" src={BackEnd} alt="back end image" />
           <h2>Back-End</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,

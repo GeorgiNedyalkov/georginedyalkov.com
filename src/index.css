@@ -69,13 +69,16 @@ textarea, input {
   padding: 10px;
 }
 
+section {
+  margin-bottom: 200px;
+}
+
 .link {
   color: var(--primary-indigo-500);
   border-bottom: 2px solid var(--primary-indigo-500);
 }
 
 #about-section {
-  margin: 30px 0px;
   display: flex;
   gap: 100px;
 }
@@ -87,3 +90,8 @@ textarea, input {
 .about_image {
   width: 300px;
 }
+
+.icon {
+  font-size: 40px;
+}
+
