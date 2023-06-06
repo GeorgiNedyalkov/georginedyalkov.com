@@ -1,18 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <div id="about-page">
-      <h2>About</h2>
-      <p>
-        I am an aspiring web developer with skills in JavaScript, React and Node
-        JS.
-      </p>
+      <h1>About me</h1>
       <p>
         Hi, I'm Georgi. For the past 6 years I have been working in the real
         estate industry as a sales agent and later marketing manager. But at the
         same time I started learning how to code because I wanted to be able to
-        create things by myself.
+        create things by myself. You can check out my
+        <Link className="link" to={"/projects"}>
+          {" "}
+          projects{" "}
+        </Link>
+        page to see what I have been working on.
       </p>
       <p>
         In the past year I have been studying programming and developing simple
@@ -24,14 +26,6 @@ const About = () => {
         I have also taken a course on back-end development with node and build
         express applications. I learned about concepts like authorization,
         encryption, databases, CRUD operations, MVC framework.
-      </p>
-      <p>
-        I have been taking courses in SoftUni that guided my own self-stuying
-        method.
-      </p>
-      <p>
-        The first application that I wanted to create was to solve a problem for
-        my own work.
       </p>
     </div>
   );

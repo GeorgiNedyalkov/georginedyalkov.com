@@ -15,6 +15,15 @@ const Projects = ({ projects }) => {
           ))}
         </ul>
       </div>
+      <h3>Front-end Mentor</h3>
+      <p>
+        I believe practice is a must for every professional. Which is why
+        everyday I try to solve at least on problem from the front-end mentor
+        website.
+      </p>
+      <div>
+        <Project />
+      </div>
     </section>
   );
 };
