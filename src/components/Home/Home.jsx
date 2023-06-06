@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-
+import Hero from "../Hero/Hero";
 import Contact from "../ContactForm/ContactForm";
 import Projects from "../Projects/Projects";
 
@@ -10,61 +9,7 @@ import "./Home.css";
 const Home = ({ projects }) => {
   return (
     <main>
-      <section className="hero">
-        <div className="hero__text">
-          <header>
-            <h1>Hi, I am Georgi!</h1>
-            <p>
-              Welcome to my digital lab. 🧪
-              <br />
-              I'm an aspiring web developer based in 📍 Burgas, Bulgaria.
-            </p>
-            <p>
-              For the past year I have been learning how to code the basics of
-              web development like HTML, CSS, and JavaScript, now I am focussing
-              on learning React and backend development with NodeJS and MondoDB.
-            </p>
-            <p>
-              Currently I am following the web developer in
-              <a href="https://softuni.bg/">
-                <b> SoftUni </b>
-              </a>
-              universty.
-            </p>
-            <p>
-              I have been working on projects that solve problems from my
-              previous working experience as a digital marketer in the real
-              estate development industry. You can check out my
-              <b>
-                <Link to="projects"> projects </Link>
-              </b>
-              page to see what I have been working on.
-            </p>
-            <p>
-              I would love to collaborate or work with other web developers,
-              designers or business professionals. If you feel the same you can
-              say hello at the
-              <Link to="/contact">
-                <b> contact </b>
-              </Link>
-              section.
-            </p>
-          </header>
-        </div>
-        <div className="hero__img-container">
-          <img
-            className="hero__img"
-            src="https://avatars.githubusercontent.com/u/51360924?v=4"
-            alt="Georgi Nedyalkov"
-          />
-          <div className="links">
-            <button className="btn cv">View CV</button>
-            <a className="gitHub" href="https://github.com/GeorgiNedyalkov">
-              GitHub
-            </a>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       <Projects projects={projects} />
 

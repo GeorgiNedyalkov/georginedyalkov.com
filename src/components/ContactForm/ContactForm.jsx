@@ -10,7 +10,6 @@ const INITIAL_FORM_DATA = {
 
 const Contact = () => {
   const [formData, setFormData] = useState(INITIAL_FORM_DATA);
-  const [status, setStatus] = useState({});
 
   const onFormChange = (e) => {
     setFormData((state) => ({

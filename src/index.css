@@ -38,6 +38,11 @@
   padding: 0; 
 }
 
+html {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 
 li {
   list-style-type: none;
@@ -54,6 +59,10 @@ a:hover {
 
 p {
   padding-bottom: 1.5rem;
+}
+
+p, ul, ol {
+  font-size: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -74,7 +83,14 @@ textarea, input {
 }
 
 section {
-  margin-bottom: 200px;
+  margin-bottom: 60px;
+}
+
+
+@media screen and (min-width: 700px) {
+  section {
+    margin-bottom: 200px;  
+  }
 }
 
 
@@ -88,9 +104,6 @@ section {
   gap: 100px;
 }
 
-#front-end {
-  
-}
 
 .about_image {
   width: 300px;
@@ -100,3 +113,19 @@ section {
   font-size: 40px;
 }
 
+.btn {
+    width: 150px;
+    height: 35px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    background-color: var(--primary-indigo-700);
+    color: var(--primary-indigo-100);
+    border: 1px solid var(--primary-indigo-700);
+    border-radius: var(--btn-radius);
+    cursor: pointer; 
+}
+
+.btn:hover {
+    background-color: var(--primary-indigo-100);
+    color: var(--primary-indigo-700);
+}

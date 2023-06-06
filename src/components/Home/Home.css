@@ -1,21 +1,4 @@
-.hero {
-    padding: 3rem 0rem;
-    display: flex;
-    justify-content: space-between;
-}
 
-.hero__img-container {
-    display: flex;
-    flex-direction: column;
-     gap: 10px;
-}
-
-.hero__img {
-    height: 300px;
-    width: 300px;
-    object-fit: contain;
-    border-radius: 5px;
-}
 
 .projects ul {
     display: flex;

@@ -5,10 +5,9 @@
     gap: 10px;
 }
 
-.btn, .submit {
+.btn {
     width: 150px;
     height: 35px;
-    text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1.5px;
     background-color: var(--primary-indigo-700);
@@ -18,7 +17,7 @@
     cursor: pointer; 
 }
 
-.btn.submit:hover {
+.btn:hover {
     background-color: var(--primary-indigo-100);
     color: var(--primary-indigo-700);
 }
