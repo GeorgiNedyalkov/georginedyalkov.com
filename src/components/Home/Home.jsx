@@ -48,17 +48,13 @@ const Home = ({ projects }) => {
           <h2>What's the story?</h2>
           <p>
             For the past 7 years I have been working in a real estate
-            development company called Atlantis Bulgaria Holding. First I
-            started as an agent and then I got promoted to a marketing manager
-            and lead a team of both content creators and sales agents. Though my
-            work compensated me well something was missing.
+            development company called Atlantis Bulgaria Holding.
           </p>
           <p>
-            I found programming and that ignited a spark I have never felt for
-            something I enjoy doing as a profession. For the past year I have
-            been learning how to code by myself first and then with SoftUni so
-            that I can calibrate what I know with best practices. I have one
-            more semester to complete the JavaScript developer path.
+            For the past year I have been learning how to code by myself first
+            and then with SoftUni so that I can calibrate what I know with best
+            practices. I have one more semester to complete the JavaScript
+            developer path.
           </p>
         </div>
       </section>

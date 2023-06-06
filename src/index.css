@@ -102,20 +102,9 @@ section {
   }
 }
 
-
 .link {
   color: var(--primary-indigo-500);
   border-bottom: 2px solid var(--primary-indigo-500);
-}
-
-#about-section {
-  display: flex;
-  gap: 100px;
-}
-
-
-.about_image {
-  width: 300px;
 }
 
 .icon {
