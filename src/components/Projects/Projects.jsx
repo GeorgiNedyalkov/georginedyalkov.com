@@ -7,7 +7,7 @@ const Projects = ({ projects }) => {
     <section id="projects_section">
       <h2>Projects</h2>
       <div className="projects">
-        <ul>
+        <ul className="projects__list">
           {projects.map((project) => (
             <li key={project.id}>
               <Project {...project} />
