@@ -1,7 +1,17 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+const SpotifyAPI = "https://api.spotify.com/";
+
 const About = () => {
+  const [playlists, setPlaylists] = useState([]);
+
+  useEffect(() => {
+    fetch(SpotifyAPI)
+      .then((response) => response.json)
+      .then((data) => console.log(data));
+  }, []);
+
   return (
     <div id="about-page">
       <h1>About me</h1>
