@@ -87,15 +87,14 @@ const Home = ({ projects }) => {
           <img className="about_image" src={BackEnd} alt="back end image" />
           <h2>Back-End</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-            fugiat. Voluptates pariatur ratione iure deleniti! Beatae culpa
-            minus soluta dolorum id minima. Quibusdam corrupti tempora iure, ea
-            aperiam cum velit. Sunt architecto ipsum, vero, dolore delectus est
-            eligendi nostrum hic asperiores, reprehenderit earum? Ex
-            repudiandae, eos autem incidunt, nulla hic maiores distinctio
-            corrupti, ipsam magni nobis consectetur blanditiis eius veritatis.
-            Vel obcaecati blanditiis ipsam, incidunt iure fuga quia. Neque nulla
-            sit eum, dolor iusto natus nihil
+            Because of my desire to create full working project by myself I had
+            to learn how to write back-end software. I started with node and
+            express and learned how to build basic APIs. In the Back-End course
+            in SoftUni I learned many more concepts and deepened my knowledge. I
+            learned about concepts like: authorization, encryption,
+            models-controller-service framework, middlewares, buffers, http
+            protocol and how the internet works in general. I always like to
+            cement my knowledge by writing an article for the things I study.
           </p>
         </div>
         <div id="story">
