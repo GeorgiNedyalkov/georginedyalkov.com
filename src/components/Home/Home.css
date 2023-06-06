@@ -1,5 +1,4 @@
 /* Hero */
-
 @media screen and (min-width: 700px) {
     #hero {
         display: flex;
@@ -9,7 +8,6 @@
 }
 
 /* Projects */
-
 .projects__list {
     display: flex;
     flex-direction: column;
@@ -36,13 +34,8 @@
     border-bottom: 2px solid var(--primary-indigo-700);
 }
 
-.links {
-    display: flex;
-    gap: 20px;
-}
 
 /* About */
-
 #about-section {
     display: flex;
     gap: 100px;

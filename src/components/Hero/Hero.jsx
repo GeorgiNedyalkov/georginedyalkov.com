@@ -33,7 +33,7 @@ const Hero = () => {
           src="https://avatars.githubusercontent.com/u/51360924?v=4"
           alt="Georgi Nedyalkov"
         />
-        <div className="links">
+        <div className="hero__links">
           <button className="btn">Résumé</button>
           <a href="https://github.com/GeorgiNedyalkov">GitHub</a>
         </div>
