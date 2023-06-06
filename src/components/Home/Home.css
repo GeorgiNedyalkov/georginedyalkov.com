@@ -38,9 +38,33 @@
 /* About */
 #about-section {
     display: flex;
-    gap: 100px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .about_image {
     width: 300px;
+}
+
+#front-end {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 700px) {
+    #about-section {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 80px;
+    }
+
+    #about-section p {
+        max-width: 300px;
+    }
+
+    .back-end__top {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
 }

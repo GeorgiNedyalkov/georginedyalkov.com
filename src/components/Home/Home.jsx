@@ -31,8 +31,10 @@ const Home = ({ projects }) => {
           <img className="about_image" src={FrontEnd} alt="front end image" />
         </div>
         <div id="back-end">
-          <img className="about_image" src={BackEnd} alt="back end image" />
-          <h2>Back-End</h2>
+          <div className="back-end__top">
+            <h2>Back-End</h2>
+            <img className="about_image" src={BackEnd} alt="back end image" />
+          </div>
           <p>
             Because of my desire to create full working project by myself I had
             to learn how to write back-end software. I started with node and
