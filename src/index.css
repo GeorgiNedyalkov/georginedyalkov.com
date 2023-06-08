@@ -55,9 +55,9 @@ a {
   color: var(--primary-indigo-300);
 }
 
-a:hover {
+/* a:hover {
   border-bottom: 2px solid var(--primary-indigo-500);
-}
+} */
 
 p {
   padding-bottom: 1.5rem;

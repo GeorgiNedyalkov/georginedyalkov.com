@@ -27,9 +27,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/projects">
-                  <h3>Resume</h3>
-                </Link>
+                <a href="/georgi_nedyalkov_cv.pdf">
+                  <h3>Résumé</h3>
+                </a>
               </li>
             </ul>
           </div>
