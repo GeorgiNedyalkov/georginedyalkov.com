@@ -9,7 +9,9 @@ const Footer = () => {
       <section className="footer_top">
         <div className="footer_top_rigth">
           <h2>Say hello</h2>
-          <a href="mailto::gnedyalkov94@gmail.com"> gnedyalkov94@gmail.com</a>
+          <a className="link" href="mailto::gnedyalkov94@gmail.com">
+            gnedyalkov94@gmail.com
+          </a>
           <p>San Stefano 97A, Burgas, Bulgaria</p>
         </div>
 

@@ -11,18 +11,18 @@ const Hero = () => {
           <p>Welcome to my 🧪 digital lab!</p>
           <p>I'm an aspiring web developer based in 📍 Burgas, Bulgaria.</p>
           <p>
-            Currently Working on
-            <b>
-              <Link to="projects"> projects </Link>
-            </b>
+            Currently Working on{" "}
+            <Link className="link" to="projects">
+              <b>projects</b>
+            </Link>{" "}
             that solve problems from my previous working experience as a digital
             marketer in the real estate development industry.
           </p>
           <p>
-            Also finishing my final semester in
-            <a href="https://softuni.bg/">
-              <b> SoftUni </b>
-            </a>
+            Also finishing my final semester in{" "}
+            <a className="link" href="https://softuni.bg/">
+              <b>SoftUni</b>
+            </a>{" "}
             on the JavaScript Developer path.
           </p>
         </div>
@@ -37,7 +37,9 @@ const Hero = () => {
           <a href="/georgi_nedyalkov_cv.pdf" target="_blank">
             <button className="btn">Résumé</button>
           </a>
-          <a href="https://github.com/GeorgiNedyalkov">GitHub</a>
+          <a className="link" href="https://github.com/GeorgiNedyalkov">
+            GitHub
+          </a>
         </div>
       </div>
     </section>
