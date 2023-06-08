@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { BiLinkExternal } from "react-icons/bi";
 
 import "./Hero.css";
 
@@ -37,8 +38,8 @@ const Hero = () => {
           <a href="/georgi_nedyalkov_cv.pdf" target="_blank">
             <button className="btn">Résumé</button>
           </a>
-          <a className="link" href="https://github.com/GeorgiNedyalkov">
-            GitHub
+          <a className="link github" href="https://github.com/GeorgiNedyalkov">
+            GitHub <BiLinkExternal />
           </a>
         </div>
       </div>
