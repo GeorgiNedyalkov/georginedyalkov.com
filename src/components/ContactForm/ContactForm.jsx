@@ -18,17 +18,13 @@ const Contact = () => {
     }));
   };
 
-  const onContactSubmit = (e) => {
-    console.log(formData.message);
-  };
-
   return (
     <section id="contact-form">
       <div className="container">
         <form
           id="contact"
-          action="mailto:gnedyalkov94@gmail.com"
-          onSubmit={onContactSubmit}
+          action="https://usebasin.com/f/25163cad755a"
+          method="POST"
         >
           <h1>Contact me</h1>
           <label htmlFor="Email">Name:</label>
