@@ -1,0 +1,64 @@
+#skills {
+    margin-bottom: 100px;
+}
+
+.skill {
+    padding: 20px;
+    margin-bottom: 40px;
+    max-width: 330px;
+    background-color: var(--skill-background);
+    border-radius: var(--radius);
+}
+
+@media screen and (min-width: 700px) {
+    .skill {
+        height: 450px;
+    }
+
+    .skill__header {
+        height: 200px;
+    }
+    
+    .skills__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+    }
+}
+
+.skill__top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.skill__title {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--primary-indigo-500);
+}
+
+.skill__description {
+    text-align: center;
+}
+
+.skill__icon {
+    font-size: 2rem;
+    color: var(--primary-indigo-500);
+}
+
+.skill__technologies_title {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.skill__technology {
+    text-align: center;
+}
