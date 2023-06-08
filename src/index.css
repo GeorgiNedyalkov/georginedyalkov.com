@@ -77,17 +77,41 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
 }
 
+/* h1 {
+  font-size: 1.8rem;
+} */
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+
+  
+}
+
 textarea {
-  height: 100px;
-  margin-bottom: 20px;
+  vertical-align: top;
+  resize: none;
+  width: 100%;
 }
 
 input {
-  height: 35px;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-bottom: 2px solid var(--primary-indigo-900);
+  outline: none;
 }
 
 textarea, input {
-  padding: 10px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 2px solid var(--primary-indigo-900);
+  background-color: transparent;
 }
 
 /* Sections */
@@ -108,7 +132,7 @@ section {
 /* Buttons */
 .btn {
     width: 150px;
-    height: 35px;
+    min-height: 40px;
     font-weight: 600;
     letter-spacing: 1.5px;
     background-color: var(--primary-indigo-700);
@@ -124,7 +148,6 @@ section {
 }
 
 /* Links */
-
 .link:hover {
     border-bottom: 2px solid var(--primary-indigo-500);
 }
