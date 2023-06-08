@@ -1,15 +1,12 @@
 import "./Project.css";
 
-const Project = ({ name, description, date, demo, code, imageUrl }) => {
+const Project = ({ name, description, date, demo, code }) => {
   return (
     <article className="project">
       <div className="project__top">
         <h4 className="project__name">{name}</h4>
         <time className="project__date">{date}</time>
       </div>
-      {/* <div className="project__image_container">
-        <img className="project__image" src={imageUrl} alt={imageUrl} />
-      </div> */}
       <p className="project__description">{description}</p>
       <ul className="project__links">
         <li className="project__link">
