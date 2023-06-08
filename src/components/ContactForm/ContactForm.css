@@ -2,14 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 #contact {
-    margin-bottom: 150px;
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
 }
 
 .form__title {
@@ -30,6 +29,10 @@
 }
 
 @media screen and (min-width: 700px) {
+    #contact-form {
+        margin-bottom: 200px;
+    }
+
     #contact {
         display: flex;
         align-items: center;
@@ -52,5 +55,7 @@
         margin-bottom: 50px;
     }
 
-
+    form p {
+        margin-bottom: 20px;
+    }
 }

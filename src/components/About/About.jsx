@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import "./About.css";
+
 const SpotifyAPI = "https://api.spotify.com/";
 
 const About = () => {
