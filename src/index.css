@@ -20,13 +20,17 @@
   --primary-indigo-300: #a5b4fc;
   --primary-indigo-500: #6366f1;
   --primary-indigo-700: #4338ca;
+  --primary-indigo-900: #4338ca;
+  --primary-indigo-900: #1e1b4b;
 
   
   /* Background */
   --background-dark: hsl(0, 0%, 5%);
   --background--projects: hsla(0, 0%, 0%, 99%);
+  --skill-background: var(--primary-indigo-900);
 
   /* Sizes */
+  --radius: 10px;
   --btn-radius: 5px;
 }
 
@@ -54,8 +58,6 @@ a {
   color: var(--primary-indigo-300);
 }
 
-
-
 p {
   padding-bottom: 1.5rem;
 }
@@ -66,9 +68,7 @@ p, ul, ol {
 
 p {
   letter-spacing: 0.01rem;
-
 }
-
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -92,7 +92,7 @@ textarea, input {
 
 /* Sections */
 section {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 700px) {
