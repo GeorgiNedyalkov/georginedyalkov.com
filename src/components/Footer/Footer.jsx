@@ -6,8 +6,8 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <section className="footer_top">
-        <div className="footer_top_rigth">
+      <section className="footer__top">
+        <div className="footer__top_right">
           <h2>Say hello</h2>
           <a className="link" href="mailto::gnedyalkov94@gmail.com">
             gnedyalkov94@gmail.com
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="footer_bottom">
+      <section className="footer__bottom">
         <h3>Don't be a stranger</h3>
         <p>Here is where you can find me</p>
         <ul className="social_media_links">
