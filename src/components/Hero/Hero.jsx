@@ -34,7 +34,7 @@ const Hero = () => {
           alt="Georgi Nedyalkov"
         />
         <div className="hero__links">
-          <a href="/georgi_nedyalkov_cv.pdf">
+          <a href="/georgi_nedyalkov_cv.pdf" target="_blank">
             <button className="btn">Résumé</button>
           </a>
           <a href="https://github.com/GeorgiNedyalkov">GitHub</a>
