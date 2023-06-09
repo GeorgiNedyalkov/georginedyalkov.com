@@ -26,7 +26,9 @@ const Contact = () => {
         method="POST"
       >
         <h2 className="form__title">Send me a message</h2>
-        <p className="form__message">Thank you for taking the time to write!</p>
+        <p className="form__thank_you_message">
+          Thank you for taking the time to write!
+        </p>
 
         <div className="form__top">
           <div className="form__field">
