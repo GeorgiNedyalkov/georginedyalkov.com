@@ -8,4 +8,55 @@
         width: var(--content-width-medium);
         margin: 0 auto;
     }
+
+    .about__section {
+        margin-bottom: 50px;
+    }
+}
+
+.genres {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.genre {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--primary-indigo-300);
+    color: var(--primary-indigo-300);
+    cursor: pointer;
+   
+}
+
+.genre:hover { 
+    border: none;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+/* TODO: decide if genres should have different colors */
+
+.genre.hiphop:hover {
+    color: var(--primary-indigo-500);
+    background-color: var(--secondary-yellow-500);
+}
+
+.genre.funk:hover {
+    color: var(--primary-indigo-500);
+    background-color: var(--secondary-yellow-500);
+}
+
+.genre.rock:hover {
+    color: var(--primary-indigo-500);
+    background-color: var(--secondary-yellow-500);
+}
+
+.genre.house:hover {
+    color: var(--primary-indigo-500);
+    background-color: var(--secondary-yellow-500);
 }
