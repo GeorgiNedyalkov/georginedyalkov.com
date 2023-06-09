@@ -34,10 +34,19 @@
   --btn-radius: 5px;
   --margin-bottom: 20px;
 
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 2rem;
+  --text-xlg: 3rem;
+
   /* Container */
   --content-width-small: 640px;
   --content-width-medium: 768px;
   --content-width-large: 1024px;
+}
+
+.text-base {
+  font-size: var(--text-base);
 }
 
 *,
@@ -82,13 +91,25 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5rem;
 }
 
-/* h1 {
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
   font-size: 1.8rem;
-} */
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
 
 @media screen and (min-width: 700px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
