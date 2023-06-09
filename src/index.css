@@ -32,6 +32,12 @@
   /* Sizes */
   --radius: 10px;
   --btn-radius: 5px;
+  --margin-bottom: 20px;
+
+  /* Container */
+  --content-width-small: 640px;
+  --content-width-medium: 768px;
+  --content-width-large: 1024px;
 }
 
 *,
@@ -47,7 +53,6 @@ html {
   font-size: 16px;
   line-height: 1.6;
 }
-
 
 li {
   list-style-type: none;
