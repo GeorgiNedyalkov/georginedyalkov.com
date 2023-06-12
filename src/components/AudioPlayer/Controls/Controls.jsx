@@ -109,7 +109,7 @@ const Controls = ({
         </button>
       </div>
       <div className="volume">
-        <button className="audio__btn">
+        <button onClick={() => setMute((prev) => !prev)} className="audio__btn">
           {mute || volume < 5 ? (
             <IoVolumeMute />
           ) : volume < 40 ? (
