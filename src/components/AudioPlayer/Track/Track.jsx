@@ -15,7 +15,7 @@ const Track = ({
     <article className="track">
       <div className="track__top">
         <div className="track__left">
-          <h3 className="track__artist">{track.artist}</h3>
+          <h4 className="track__artist">{track.artist}</h4>
           <h5 className="track__title">{track.title}</h5>
           <audio
             src={track.src}

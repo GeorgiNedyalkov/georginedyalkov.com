@@ -14,14 +14,30 @@
   -webkit-text-size-adjust: 100%;
 
   /* Colors */
-  /* Primary */
+  /* primary */
   --primary-indigo-50: #eef2ff;
-  --primary-indigo-100: #e0e7ff;
+  --primary-indigo-100: #fff8e0;
   --primary-indigo-300: #a5b4fc;
   --primary-indigo-500: #6366f1;
   --primary-indigo-700: #4338ca;
-  --primary-indigo-900: #4338ca;
-  --primary-indigo-900: #1e1b4b;
+  --primary-indigo-900: #312e81;
+  --primary-indigo-950: #1e1b4b;
+
+  /* secondary */
+  --secondary-yellow-100: #e0e7ff;
+  --secondary-yellow-300: #e0e7ff;
+  --secondary-yellow-500: #FCEDA5;
+  --secondary-yellow-700: #BFCA38;
+  --secondary-yellow-900: #484B1B;
+
+  /* greys */
+  --gray-100: #f3f4f6;
+  --gray-300: #d1d5db;
+  --gray-500: #6b7280;
+  --gray-600: #1f2937;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --gray-950: #030712;
 
   
   /* Background */
@@ -33,7 +49,6 @@
   --radius: 10px;
   --btn-radius: 5px;
   --margin-bottom: 20px;
-
   --text-sm: 0.875rem;
   --text-base: 1rem;
   --text-md: 2rem;
@@ -123,7 +138,6 @@ textarea {
 input {
   font-size: 1rem;
 }
-
 
 input:focus, textarea:focus {
   border-bottom: 2px solid var(--primary-indigo-900);

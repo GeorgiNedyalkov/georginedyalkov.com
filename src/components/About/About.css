@@ -19,17 +19,23 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .genres {
+        margin-bottom: 0px;
+    }
 }
 
 .genre {
     width: 100px;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     border-radius: 5px;
     border: 1px solid var(--primary-indigo-300);
     color: var(--primary-indigo-300);
     cursor: pointer;
-   
 }
 
 .genre:hover { 
@@ -38,8 +44,6 @@
     transform: scale(1.1);
     transition: 0.2s ease-in-out;
 }
-
-/* TODO: decide if genres should have different colors */
 
 .genre.hiphop:hover {
     color: var(--primary-indigo-500);
