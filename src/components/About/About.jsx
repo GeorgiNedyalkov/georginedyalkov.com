@@ -1,12 +1,18 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import buckethead from "../../assets/music/buckethead_hold_me_forever.mp3";
-
 import AudioPlayer from "../AudioPlayer/AudioPlayer";
+import { tracks } from "../../data/tracksList";
 import "./About.css";
 
 const About = () => {
+  const [trackIndex, setTrackIndex] = useState(0);
+  const [currentTrack, setCurrentTrack] = useState(tracks[trackIndex]);
+
+  const onGenreSelect = (index) => {
+    setCurrentTrack(tracks[index]);
+  };
+
   return (
     <div id="about-page">
       <div className="container">
@@ -101,13 +107,27 @@ const About = () => {
           <h3>Music</h3>
           <p>Checkout one of my currently new favorite artists:</p>
           <ul className="genres">
-            <li className="genre rock">Rock</li>
-            <li className="genre hiphop">Hip Hop</li>
-            <li className="genre funk">Funk</li>
-            <li className="genre house">House</li>
+            <li onClick={() => onGenreSelect(0)} className="genre rock">
+              Rock
+            </li>
+            <li onClick={() => onGenreSelect(1)} className="genre hiphop">
+              Hip Hop
+            </li>
+            <li onClick={() => onGenreSelect(2)} className="genre funk">
+              Funk
+            </li>
+            <li onClick={() => onGenreSelect(3)} className="genre house">
+              House
+            </li>
           </ul>
         </div>
-        <AudioPlayer />
+        <AudioPlayer
+          tracks={tracks}
+          currentTrack={currentTrack}
+          trackIndex={trackIndex}
+          setCurrentTrack={setCurrentTrack}
+          setTrackIndex={setTrackIndex}
+        />
       </div>
     </div>
   );

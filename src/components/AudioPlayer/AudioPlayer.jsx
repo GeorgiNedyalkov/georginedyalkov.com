@@ -4,14 +4,16 @@ import Track from "./Track/Track";
 import Controls from "./Controls/Controls";
 import ProgressBar from "./ProgressBar/ProgressBar";
 
-import { tracks } from "../../data/tracksList";
-
 import "./AudioPlayer.css";
 
-const AudioPlayer = () => {
-  const [trackIndex, setTrackIndex] = useState(0);
+const AudioPlayer = ({
+  tracks,
+  currentTrack,
+  setCurrentTrack,
+  trackIndex,
+  setTrackIndex,
+}) => {
   const [timeProgress, setTimeProgress] = useState(0);
-  const [currentTrack, setCurrentTrack] = useState(tracks[trackIndex]);
   const [duration, setDuration] = useState(0);
 
   const progressBarRef = useRef();
