@@ -1,19 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import buckethead from "../../assets/music/buckethead_hold_me_forever.mp3";
+
+import AudioPlayer from "../AudioPlayer/AudioPlayer";
 import "./About.css";
 
-const SpotifyAPI = "https://api.spotify.com/";
-
 const About = () => {
-  const [playlists, setPlaylists] = useState([]);
-
-  useEffect(() => {
-    fetch(SpotifyAPI)
-      .then((response) => response.json)
-      .then((data) => console.log(data));
-  }, []);
-
   return (
     <div id="about-page">
       <div className="container">
@@ -51,6 +44,70 @@ const About = () => {
           contracts myself. It is one of the industries I am most excited about
           and would love to one day work in a project like this.
         </p>
+
+        <h2>Favorites</h2>
+        <div className="about__section">
+          <h3>Sports</h3>
+          <ul>
+            <li>Jiu Jitsu</li>
+            <li>Break dancing</li>
+            <li>Table soccer a.k.a ''Джага''</li>
+            <li>Chess - 1.e4 with white; 1. ... c5 with black</li>
+            <li>Backgammon</li>
+            <li>Belotte</li>
+            <li>Poker</li>
+            <li>Football</li>
+          </ul>
+        </div>
+        <div className="about__section">
+          <h3>Gaming</h3>
+          <p>
+            All time favorites, in no particular order, and highly recommended
+            games:
+          </p>
+          <ul>
+            <li>Subnautica</li>
+            <li>Starcraft 2</li>
+            <li>God of War</li>
+            <li>Returnal</li>
+            <li>Quake III</li>
+            <li>Bloodbourne</li>
+            <li>Assassins Creed 2</li>
+            <li>Pandemonium</li>
+          </ul>
+          <p>
+            Currently trying our Baldur's gate and afterwards Heroes 3 (a little
+            late to the party I know).
+          </p>
+        </div>
+        <div className="about__section">
+          <h3>Books</h3>
+        </div>
+
+        <div className="about__section">
+          <h3>Movies and Shows</h3>
+          <ul>
+            <li>Lord of the Rings</li>
+            <li>Pulp Fiction</li>
+            <li>Revolver</li>
+            <li>The Godfather 2</li>
+            <li>The Silence of the Lambs</li>
+            <li>Star Wars</li>
+            <li>Vikings</li>
+          </ul>
+        </div>
+
+        <div className="about__section">
+          <h3>Music</h3>
+          <p>Checkout one of my currently new favorite artists:</p>
+          <ul className="genres">
+            <li className="genre rock">Rock</li>
+            <li className="genre hiphop">Hip Hop</li>
+            <li className="genre funk">Funk</li>
+            <li className="genre house">House</li>
+          </ul>
+        </div>
+        <AudioPlayer />
       </div>
     </div>
   );

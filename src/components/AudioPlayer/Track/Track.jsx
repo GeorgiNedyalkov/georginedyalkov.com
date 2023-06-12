@@ -1,4 +1,10 @@
-const Track = ({ track, audioRef, setDuration, progressBarRef }) => {
+const Track = ({
+  track,
+  audioRef,
+  setDuration,
+  progressBarRef,
+  handleNext,
+}) => {
   const onLoadedMetadata = () => {
     const seconds = audioRef.current.duration;
     setDuration(seconds);
@@ -15,7 +21,8 @@ const Track = ({ track, audioRef, setDuration, progressBarRef }) => {
             src={track.src}
             ref={audioRef}
             onLoadedMetadata={onLoadedMetadata}
-          ></audio>
+            onEnded={handleNext}
+          />
         </div>
         <div className="track__right">
           <div className="track__img_container">

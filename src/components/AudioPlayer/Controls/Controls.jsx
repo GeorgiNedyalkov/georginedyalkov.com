@@ -21,6 +21,7 @@ const Controls = ({
   trackIndex,
   setTrackIndex,
   setCurrentTrack,
+  handleNext,
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(60);
@@ -43,16 +44,6 @@ const Controls = ({
 
     playAnimationRef.current = requestAnimationFrame(repeat);
   }, [audioRef, duration, progressBarRef, setTimeProgress]);
-
-  const handleNext = () => {
-    if (trackIndex >= tracks.length - 1) {
-      setTrackIndex(0);
-      setCurrentTrack(tracks[0]);
-    } else {
-      setTrackIndex((prev) => prev + 1);
-      setCurrentTrack(tracks[trackIndex + 1]);
-    }
-  };
 
   const handlePrevious = () => {
     if (trackIndex === 0) {
