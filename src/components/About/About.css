@@ -3,6 +3,10 @@
     margin-bottom: 100px;
 }
 
+.about__heading {
+    color: var(--secondary-yellow-500);
+}
+
 @media screen and (min-width: 768px) {
     .container {
         width: var(--content-width-medium);
