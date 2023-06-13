@@ -192,5 +192,6 @@ section {
 
 /* Links */
 .link:hover {
+    cursor: pointer;
     border-bottom: 2px solid var(--primary-indigo-500);
 }
