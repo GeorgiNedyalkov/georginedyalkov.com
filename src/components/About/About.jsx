@@ -5,12 +5,15 @@ import AudioPlayer from "../AudioPlayer/AudioPlayer";
 
 import { tracks } from "../../data/tracksList";
 import { booksData } from "../../data/booksData";
+import { gamesData } from "../../data/gamesData";
 import "./About.css";
+import Games from "./Games/Games";
 
 const About = () => {
   const [trackIndex, setTrackIndex] = useState(0);
   const [currentTrack, setCurrentTrack] = useState(tracks[trackIndex]);
-  const [movies, setMovies] = useState([]);
+  // const [movies, setMovies] = useState([]);
+  const [games, setGames] = useState(gamesData);
   const [books, setBooks] = useState(booksData);
 
   const onGenreSelect = (index) => {
@@ -45,6 +48,7 @@ const About = () => {
             All time favorites, in no particular order, and highly recommended
             games:
           </p>
+          <Games games={games} />
           <ul>
             <li>Subnautica</li>
             <li>Starcraft 2</li>
