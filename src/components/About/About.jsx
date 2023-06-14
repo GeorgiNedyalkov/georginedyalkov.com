@@ -140,20 +140,26 @@ const Excerpt = () => {
     <div>
       <p>
         For the past 6 years I have been working in the real estate industry as
-        a sales agent and later marketing manager. But at the same time I
-        started learning how to code because I wanted to be able to create
-        things by myself. You can check out my
-        <Link className="link" to={"/projects"}>
-          {" "}
-          projects{" "}
-        </Link>
-        page to see what I have been working on.
+        a sales agent and later marketing manager. At the same time I started
+        learning how to code, because I wanted to be able to create things by
+        myself.
       </p>
       <p>
-        In the past year I have been studying programming and developing simple
-        applications to learn how to code. I started with html, css and
-        javascript. Later I continued to learn React and now I am still figuring
-        out Redux.
+        I started coding in may 2022. In the past year I have been learning how
+        to program and began developing simple applications. I started with
+        building a solid foundation in HTML5, CSS and JavaScript. Later I
+        continued to learn React and now I am figuring out Redux.
+      </p>
+      <p>
+        Currently a student in SoftUni with a one more semester of getting my
+        degree. The course I am currently on focuses on deepening my knowledge
+        on JavaScript with modules such as: arrays, objects and composition,
+        classes, prototypes and inheritance, DOM manipulation and events,
+        advanced functions, unit testing, etc. After which I have one more
+        course where we will learn about JavaScript applications and concepts
+        such as HTTP, REST services, async programming, authentication,
+        architecture and testing, single page applications, routing, client side
+        rendering and more.
       </p>
       <p>
         I have also taken a course on back-end development with node and build
