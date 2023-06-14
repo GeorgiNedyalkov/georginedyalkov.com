@@ -42,33 +42,25 @@
 .game__links__list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
-.game__link {
-    width: 150px;
-    padding: 10px;
+.game__btn {
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    border-radius: 50px;
-    color: var(--primary-indigo-300);
-    border: 1px solid var(--primary-indigo-900);
+    padding: 15px;
+    font-weight: 700;
+    border-radius: var(--radius);
+    color: var(--secondary-yellow-500);
+    background-color: var(--primary-indigo-500);
+    transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 
-.game__link:hover {
-    color: black;
-    font-weight: bold;
-    transition: 0.2s ease-in;
-    background-color: var(--primary-indigo-100);
-}
-
-.game__link:hover>a {
-    color: var(--primary-indigo-300);
-}
-
-.game__link a:hover {
-    color: black;
+.game__btn:hover {
+    background-color: var(--secondary-yellow-500);
+    color: var(--primary-indigo-500);
 }

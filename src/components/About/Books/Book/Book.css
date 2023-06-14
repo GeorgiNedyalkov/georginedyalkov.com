@@ -22,3 +22,21 @@
 .book__author {
     color: var(--secondary-yellow-500);
 }
+
+.book__genre {
+    color: var(--secondary-yellow-300)
+}
+
+.book__btn {
+    padding: 15px;
+    font-weight: 700;
+    border-radius: var(--radius);
+    color: var(--secondary-yellow-500);
+    background-color: var(--primary-indigo-500);
+    transition: 0.2s ease-in-out;
+}
+
+.book__btn:hover {
+    background-color: var(--secondary-yellow-500);
+    color: var(--primary-indigo-500);
+}

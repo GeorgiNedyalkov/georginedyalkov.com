@@ -25,13 +25,17 @@ const Game = ({
         <p className="game__genre">Genre: {genre}</p>
         <div className="game__links__container">
           <ul className="game__links__list">
-            <li className="game__link">
-              <a href={gameLink}>Check it out</a>
-              <TbExternalLink />
+            <li>
+              <a className="game__btn" href={gameLink}>
+                Check it out
+                <TbExternalLink />
+              </a>
             </li>
-            <li className="game__link">
-              <a href={trailer}>Trailer</a>
-              <TbExternalLink />
+            <li>
+              <a className="game__btn" href={trailer}>
+                Trailer
+                <TbExternalLink />
+              </a>
             </li>
           </ul>
         </div>

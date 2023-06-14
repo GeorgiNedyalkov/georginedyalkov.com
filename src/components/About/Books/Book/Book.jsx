@@ -1,6 +1,6 @@
 import "./Book.css";
 
-const Book = ({ title, image, author, description }) => {
+const Book = ({ title, image, author, description, genre, sample }) => {
   return (
     <article className="book">
       <div className="book__image__container">
@@ -15,7 +15,13 @@ const Book = ({ title, image, author, description }) => {
         <p>
           by <span className="book__author">{author}</span>
         </p>
-        <p className="description">{description}</p>
+        <p className="book__description">{description}</p>
+        <p>
+          Genre: <span className="book__genre">{genre}</span>
+        </p>
+        <a className="book__btn" href={sample}>
+          Read a sample
+        </a>
       </div>
     </article>
   );
