@@ -104,7 +104,7 @@ const About = () => {
         </div> */}
 
         <div className="about__section">
-          <h3>Music</h3>
+          <h3 className="about__heading">Music</h3>
           <p>Checkout one of my currently new favorite artists:</p>
           <ul className="genres">
             <li onClick={() => onGenreSelect(0)} className="genre rock">
