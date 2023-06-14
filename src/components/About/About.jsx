@@ -92,7 +92,7 @@ const About = () => {
         </div>
 
         <div className="about__section">
-          <h3>Movies and Shows</h3>
+          <h3 className="about__heading">Movies and Shows</h3>
           <ul>
             <li>Snatch</li>
             <li>Lord of the Rings</li>
