@@ -44,10 +44,8 @@ export const gamesData = [
     genre: "Action-Adventure, Hach and slash",
     gameLink: "https://www.playstation.com/en-bg/god-of-war/",
     trailer: "https://www.youtube.com/watch?v=g1wr0DfV73E",
-    description: `Join Kratos and Atreus on a mythic journey for answers before Ragnarök arrives.
-    Together, father and son must put everything on the line as they journey to each of the Nine Realms.
-    Throughout stunning mythological landscapes, they’ll face fearsome enemies – from Norse gods to wild
-    beasts – as they prepare for the showdown of their lives.`,
+    description: `Kratos and Atreus are on a mythic journey to each of the Nine Realms looking for answers before Ragnarök arrives.
+    They see stunning mythological landscapes and fearsome enemies – from Norse gods to wild beasts – as they prepare for the showdown of their lives.`,
     reviews: {
       count: 192,
       opinion: "9.7 ⭐",
@@ -60,7 +58,9 @@ export const gamesData = [
     genre: "Bullet-hell Roguelike Third Person Shooter",
     gameLink: "https://store.steampowered.com/app/1649240/Returnal/",
     trailer: "https://www.youtube.com/watch?v=ov4fJmGCsZM",
-    description: `After crash-landing on this shape-shifting world, Selene must search through the barren landscape of an ancient civilization for her escape. Isolated and alone, she finds herself fighting tooth and nail for survival. 
+    description: `After crash-landing on this shape-shifting world, 
+    Selene must search through the barren landscape of an ancient civilization for her escape. 
+    Isolated and alone, she finds herself fighting tooth and nail for survival. 
     Again and again, she’s defeated – forced to restart her journey every time she dies.`,
     reviews: {
       count: 2678,
@@ -105,9 +105,8 @@ export const gamesData = [
     genre: "Action Adventure",
     gameLink: "https://store.steampowered.com/app/33230/Assassins_Creed_2/",
     trailer: "https://www.youtube.com/watch?v=_xkCPNECud8",
-    description: `Ezio Auditore da Firenze is a young Italian noble who will learn 
+    description: `Ezio Auditore da Firenze is a young Italian, lady’s man, noble who learns 
     the ways of the assassins after his family was betrayed and he looks to seek vengeance. 
-    He is a lady’s man, a free soul with panache yet has a very human side to his personality. 
     Through him, you become a master assassin.`,
     reviews: {
       count: 39681,
@@ -121,10 +120,8 @@ export const gamesData = [
     genre: "Action Adventure Platformer",
     gameLink: "https://www.gog.com/en/game/pandemonium_2",
     trailer: "https://www.youtube.com/watch?v=lpEVlHqtlbw",
-    description: `When the  "Comet of Infinite Possibilities" is about to pass over Lyr 
-    , the inhabitants race to reach the comet in order to make a wish 
-    on its powers. Nikki, a sassy sorceress, decides that stealing the source of its magic is a quicker 
-    way to reach power than study.  Fargus, a court jester, has gone insane over the years and has a simple plan to "touch pretty fire" upon reaching the comet`,
+    description: `When the  "Comet of Infinite Possibilities" is about to pass over Nikki, a sassy sorceress, decides that stealing the source of its magic is a quicker 
+    way to reach power than study. Fargus, a court jester, has gone insane over the years and has a simple plan to "touch pretty fire" upon reaching the comet`,
     reviews: {
       count: 3.7,
       opinion: "🌟",
