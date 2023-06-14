@@ -90,7 +90,7 @@ const About = () => {
             })}
           </ul>
         </div>
-        {/* 
+
         <div className="about__section">
           <h3>Movies and Shows</h3>
           <ul>
@@ -101,7 +101,7 @@ const About = () => {
             <li>Inglorius Basterds</li>
             <li>Dark Knight Rises</li>
           </ul>
-        </div> */}
+        </div>
 
         <div className="about__section">
           <h3 className="about__heading">Music</h3>
