@@ -7,10 +7,12 @@
 
 .book__image__container {
     height: 400px;
+    width: 250px;
 }
 
 .book__image {
     height: 100%;
+    width: 100%;
 }
 
 .book__info__container {
@@ -19,13 +21,4 @@
 
 .book__author {
     color: var(--secondary-yellow-500);
-}
-
-.books__section {
-    display: flex;
-    height: 500px;
-}
-
-.books__list {
-    width: 300px;
 }

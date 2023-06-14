@@ -1,0 +1,8 @@
+.books__section {
+    display: flex;
+    height: 500px;
+}
+
+.books__list {
+    width: 300px;
+}

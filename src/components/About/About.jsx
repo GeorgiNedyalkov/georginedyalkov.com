@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import AudioPlayer from "../AudioPlayer/AudioPlayer";
 import Game from "./Games/Game/Game";
-import Book from "./Books/Book/Book";
+import Books from "./Books/Books";
 
 import { tracks } from "../../data/tracksList";
 import { booksData } from "../../data/booksData";
@@ -82,27 +82,12 @@ const About = () => {
 
         <div className="about__section">
           <h3 className="about__heading">Books</h3>
-          <div className="books__section">
-            <div className="books__section-left">
-              <ul className="books__list">
-                {books.map((book) => {
-                  return (
-                    <li
-                      key={book.id}
-                      onMouseOver={() => handleMouseOver(book.id)}
-                    >
-                      <a className="link" href={book.link}>
-                        {book.title}
-                      </a>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-            <div className="books__section-right">
-              <Book {...books[currentBookIndex - 1]} />
-            </div>
-          </div>
+
+          <Books
+            books={books}
+            handleMouseOver={handleMouseOver}
+            currentBookIndex={currentBookIndex}
+          />
         </div>
 
         <div className="about__section">
