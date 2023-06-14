@@ -16,3 +16,7 @@ You have to do it using the <audio> HTML5 tag.
 Excellent article for making an audio player in React:
 
 [Building an audio player in React to play sound or music](https://blog.logrocket.com/building-audio-player-react/)
+
+### How can you show an element when hovering on another element
+
+[Show an Element or Text on Hover in React](https://bobbyhadz.com/blog/react-show-element-on-hover)

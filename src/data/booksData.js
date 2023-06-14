@@ -8,7 +8,7 @@ export const booksData = [
     id: 1,
     title: "The War of Art",
     author: "Stevem Pressfield",
-    cover: war_of_art,
+    image: war_of_art,
     description: `Since 2002, The War of Art has inspired people around the world to defeat "Resistance"; 
     to recognize and knock down dream-blocking barriers and to silence the naysayers within us.Resistance kicks everyone's butt, 
     and the desire to defeat it is equally as universal. The War of Art identifies the enemy that every one of us must face, 
@@ -23,7 +23,7 @@ export const booksData = [
     id: 2,
     title: "Shōgun",
     author: "James Clavell",
-    cover: shogun,
+    image: shogun,
     description: `After Englishman John Blackthorne is lost at sea, he awakens in a place few Europeans know of and even fewer have seen—Nippon. 
     Thrust into the closed society that is seventeenth-century Japan, a land where the line between life and death is razor-thin, 
     Blackthorne must negotiate not only a foreign people, with unknown customs and language, but also his own definitions of morality, truth, and freedom. 
@@ -38,7 +38,7 @@ export const booksData = [
     id: 3,
     title: "The Fountainhead",
     author: "Ayn Rand",
-    cover: the_fountainhead,
+    image: the_fountainhead,
     description: `The story of intransigent young architect Howard Roark, whose integrity was as unyielding as granite...of Dominique Francon, 
     the exquisitely beautiful woman who loved Roark passionately, but married his worst enemy...and of the fanatic denunciation unleashed by an enraged society against a great creator.`,
     genre: "fiction",
@@ -50,7 +50,7 @@ export const booksData = [
     id: 4,
     title: "Sherlock Homes",
     author: "Arthur Conan Doyle",
-    cover: sherlock,
+    image: sherlock,
     description: `Sherlock Holmes is a fictional detective of the late 19th and early 20th centuries, who first appeared in publication in 1887. 
     He is the creation of Scottish born author and physician Sir Arthur Conan Doyle. A brilliant London-based detective, Holmes is famous for his intellectual prowess, 
     and is renowned for his skillful use of deductive reasoning (somewhat mistakenly - see inductive reasoning) and astute observation to solve difficult cases. 

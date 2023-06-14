@@ -1,0 +1,31 @@
+.book {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.book__image__container {
+    height: 400px;
+}
+
+.book__image {
+    height: 100%;
+}
+
+.book__info__container {
+    width: 500px;
+}
+
+.book__author {
+    color: var(--secondary-yellow-500);
+}
+
+.books__section {
+    display: flex;
+    height: 500px;
+}
+
+.books__list {
+    width: 300px;
+}

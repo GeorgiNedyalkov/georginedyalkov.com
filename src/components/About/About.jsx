@@ -1,22 +1,27 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 import AudioPlayer from "../AudioPlayer/AudioPlayer";
+import Game from "./Games/Game/Game";
+import Book from "./Books/Book/Book";
 
 import { tracks } from "../../data/tracksList";
 import { booksData } from "../../data/booksData";
 import { gamesData } from "../../data/gamesData";
+
 import "./About.css";
-import Games from "./Games/Games";
-import Game from "./Games/Game/Game";
 
 const About = () => {
   const [trackIndex, setTrackIndex] = useState(0);
   const [currentTrack, setCurrentTrack] = useState(tracks[trackIndex]);
-  // const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState([]);
   const [games, setGames] = useState(gamesData);
-  const [currentGameIndex, setCurrentGameIndex] = useState(1);
   const [books, setBooks] = useState(booksData);
+  const [currentGameIndex, setCurrentGameIndex] = useState(1);
+  const [currentBookIndex, setCurrentBooksIndex] = useState(1);
+
+  const handleMouseOver = (bookId) => {
+    setCurrentBooksIndex(bookId);
+  };
 
   const onGenreSelect = (index) => {
     setCurrentTrack(tracks[index]);
@@ -72,23 +77,32 @@ const About = () => {
             >
               Baldur's Gate
             </a>
-            .
           </p>
         </div>
 
         <div className="about__section">
           <h3 className="about__heading">Books</h3>
-          <ul className="books__list">
-            {books.map((book) => {
-              return (
-                <li key={book.id}>
-                  <a className="link" href={book.link}>
-                    {book.title}
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
+          <div className="books__section">
+            <div className="books__section-left">
+              <ul className="books__list">
+                {books.map((book) => {
+                  return (
+                    <li
+                      key={book.id}
+                      onMouseOver={() => handleMouseOver(book.id)}
+                    >
+                      <a className="link" href={book.link}>
+                        {book.title}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+            <div className="books__section-right">
+              <Book {...books[currentBookIndex - 1]} />
+            </div>
+          </div>
         </div>
 
         <div className="about__section">
