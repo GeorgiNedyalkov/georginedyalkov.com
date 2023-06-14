@@ -8,12 +8,14 @@ import { booksData } from "../../data/booksData";
 import { gamesData } from "../../data/gamesData";
 import "./About.css";
 import Games from "./Games/Games";
+import Game from "./Games/Game/Game";
 
 const About = () => {
   const [trackIndex, setTrackIndex] = useState(0);
   const [currentTrack, setCurrentTrack] = useState(tracks[trackIndex]);
   // const [movies, setMovies] = useState([]);
   const [games, setGames] = useState(gamesData);
+  const [currentGameIndex, setCurrentGameIndex] = useState(1);
   const [books, setBooks] = useState(booksData);
 
   const onGenreSelect = (index) => {
@@ -48,19 +50,32 @@ const About = () => {
             All time favorites, in no particular order, and highly recommended
             games:
           </p>
-          <Games games={games} />
-          <ul>
-            <li>Subnautica</li>
-            <li>Starcraft 2</li>
-            <li>God of War</li>
-            <li>Returnal</li>
-            <li>Quake III</li>
-            <li>Bloodbourne</li>
-            <li>Assassins Creed 2</li>
-            <li>Pandemonium</li>
+          <ul className="game__links">
+            {games.map((game) => {
+              return (
+                <li
+                  onClick={() => setCurrentGameIndex(game.id)}
+                  className="game__link__list-item"
+                  key={game.id}
+                >
+                  {game.title}
+                </li>
+              );
+            })}
           </ul>
-          <p>Currently trying our Baldur's gate</p>
+          <Game {...games[currentGameIndex - 1]} />
+          <p>
+            Currently adventuring in{" "}
+            <a
+              className="link"
+              href="https://store.steampowered.com/app/228280/Baldurs_Gate_Enhanced_Edition/"
+            >
+              Baldur's Gate
+            </a>
+            .
+          </p>
         </div>
+
         <div className="about__section">
           <h3 className="about__heading">Books</h3>
           <ul className="books__list">

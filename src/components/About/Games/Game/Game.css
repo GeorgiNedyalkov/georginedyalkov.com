@@ -3,7 +3,7 @@
     border-radius: 20px;
     background-color: var(--primary-indigo-950);
     color: var(--primary-indigo-50);
-    /* display: none; */
+    margin-bottom: 20px;
 }
 
 .game__image__container {
