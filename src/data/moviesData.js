@@ -9,7 +9,7 @@ import star_wars from "../assets/images/star_wars.jpg";
 export const moviesData = [
   {
     id: 1,
-    cover: lord_of_the_rings,
+    image: lord_of_the_rings,
     title: "Lord of the Rings",
     director: "Peter Jackson",
     plot: `A meek Hobbit from the Shire and eight companions set out on a 
@@ -20,7 +20,7 @@ export const moviesData = [
   },
   {
     id: 2,
-    cover: snatch,
+    image: snatch,
     title: "Snatch",
     director: "Guy Ritchie",
     plot: `Unscrupulous boxing promoters, violent bookmakers, 
@@ -31,7 +31,7 @@ export const moviesData = [
   },
   {
     id: 3,
-    cover: revolver,
+    image: revolver,
     title: "Revolver",
     director: "Guy Ritchie",
     plot: `Gambler Jake Green enters into a game with potentially deadly consequences.`,
@@ -40,7 +40,7 @@ export const moviesData = [
   },
   {
     id: 4,
-    cover: inglorious_basterds,
+    image: inglorious_basterds,
     title: "Inglourious Basterds",
     director: "Quentin Tarantino",
     plot: `In Nazi-occupied France during World War II, 
@@ -51,7 +51,7 @@ export const moviesData = [
   },
   {
     id: 5,
-    cover: boiling_point,
+    image: boiling_point,
     title: "Boiling Point",
     director: "Philip Barantini",
     plot: `Enter the relentless pressure of a restaurant kitchen as a head chef 
@@ -61,7 +61,7 @@ export const moviesData = [
   },
   {
     id: 6,
-    cover: dark_knight_rises,
+    image: dark_knight_rises,
     title: "The Dark Knight Rises",
     director: "Christopher Nolan",
     plot: `Eight years after the Joker's reign of chaos, 
@@ -72,7 +72,7 @@ export const moviesData = [
   },
   {
     id: 7,
-    cover: star_wars,
+    image: star_wars,
     title: "Star Wars: Return of the Jedi",
     director: "Richard Marquand",
     plot: `After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the second Death Star, 

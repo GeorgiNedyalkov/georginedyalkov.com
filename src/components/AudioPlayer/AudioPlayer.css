@@ -3,6 +3,7 @@
     max-width: 500px;
     background-color: var(--primary-indigo-950);
     border-radius: var(--radius);
+    margin-bottom: 100px;
 }
 
 .audio__controls {

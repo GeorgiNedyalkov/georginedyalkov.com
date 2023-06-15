@@ -1,0 +1,17 @@
+.movies {
+    display: flex;
+    gap: 200px;
+    height: 400px;
+}
+
+.movies__list {
+    width: 300px;
+}
+
+.movies__section--right {
+    width: 20%;
+}
+
+.movies__section--left{
+    width: 80%;
+}

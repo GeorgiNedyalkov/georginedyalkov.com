@@ -1,0 +1,43 @@
+.movie {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.movie__image__container {
+    width: 100%;
+    height: 100%;
+}
+
+.movie__image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.movie__info {
+    width: 900px;
+}
+
+.movie__btn {
+    padding: 15px;
+    font-weight: 700;
+    border-radius: var(--radius);
+    color: var(--secondary-yellow-500);
+    background-color: var(--primary-indigo-500);
+    transition: 0.2s ease-in-out;
+}
+
+.movie__btn:hover {
+    background-color: var(--secondary-yellow-500);
+    color: var(--primary-indigo-500);
+}
+
+.movie__director {
+    color: var(--secondary-yellow-500);
+}
+
+.movie__rating {
+    color: var(--secondary-yellow-300)
+}

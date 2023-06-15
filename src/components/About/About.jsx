@@ -9,18 +9,25 @@ import { booksData } from "../../data/booksData";
 import { gamesData } from "../../data/gamesData";
 
 import "./About.css";
+import { moviesData } from "../../data/moviesData";
+import Movies from "./Movies/Movies";
 
 const About = () => {
   const [trackIndex, setTrackIndex] = useState(0);
   const [currentTrack, setCurrentTrack] = useState(tracks[trackIndex]);
-  const [movies, setMovies] = useState([]);
   const [games, setGames] = useState(gamesData);
   const [books, setBooks] = useState(booksData);
+  const [movies, setMovies] = useState(moviesData);
   const [currentGameIndex, setCurrentGameIndex] = useState(1);
   const [currentBookIndex, setCurrentBooksIndex] = useState(1);
+  const [currentMovieIndex, setCurrentMovieIndex] = useState(1);
 
-  const handleMouseOver = (bookId) => {
+  const onBookMouseOver = (bookId) => {
     setCurrentBooksIndex(bookId);
+  };
+
+  const onMovieMouseOver = (movieId) => {
+    setCurrentMovieIndex(movieId);
   };
 
   const onGenreSelect = (index) => {
@@ -36,19 +43,7 @@ const About = () => {
         <Excerpt />
 
         <h2>Favorites</h2>
-        <div className="about__section">
-          <h3 className="about__heading">Sports</h3>
-          <ul>
-            <li>Jiu Jitsu</li>
-            <li>Break dancing</li>
-            <li>Table soccer a.k.a ''Джага''</li>
-            <li>Chess - 1.e4 with white; 1. ... c5 with black</li>
-            <li>Backgammon</li>
-            <li>Belotte</li>
-            <li>Poker</li>
-            <li>Football</li>
-          </ul>
-        </div>
+
         <div className="about__section">
           <h3 className="about__heading">Gaming</h3>
           <p>
@@ -85,21 +80,19 @@ const About = () => {
 
           <Books
             books={books}
-            handleMouseOver={handleMouseOver}
+            onBookMouseOver={onBookMouseOver}
             currentBookIndex={currentBookIndex}
           />
         </div>
 
         <div className="about__section">
           <h3 className="about__heading">Movies and Shows</h3>
-          <ul>
-            <li>Snatch</li>
-            <li>Lord of the Rings</li>
-            <li>Star Wars</li>
-            <li>Pulp Fiction</li>
-            <li>Inglorius Basterds</li>
-            <li>Dark Knight Rises</li>
-          </ul>
+
+          <Movies
+            movies={movies}
+            currentMovieIndex={currentMovieIndex}
+            onMovieMouseOver={onMovieMouseOver}
+          />
         </div>
 
         <div className="about__section">
@@ -127,6 +120,19 @@ const About = () => {
           setCurrentTrack={setCurrentTrack}
           setTrackIndex={setTrackIndex}
         />
+        <div className="about__section">
+          <h3 className="about__heading">Sports</h3>
+          <ul>
+            <li>Jiu Jitsu</li>
+            <li>Break dancing</li>
+            <li>Table soccer a.k.a ''Джага''</li>
+            <li>Chess - 1.e4 with white; 1. ... c5 with black</li>
+            <li>Backgammon</li>
+            <li>Belotte</li>
+            <li>Poker</li>
+            <li>Football</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
