@@ -1,5 +1,4 @@
 import war_of_art from "../assets/images/war_of_art.jpg";
-import shogun from "../assets/images/shogun.jpg";
 import the_fountainhead from "../assets/images/the_fountainhead.jpg";
 import sherlock from "../assets/images/sherlock.jpg";
 
