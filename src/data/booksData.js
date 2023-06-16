@@ -1,6 +1,7 @@
 import war_of_art from "../assets/images/war_of_art.jpg";
 import the_fountainhead from "../assets/images/the_fountainhead.jpg";
 import sherlock from "../assets/images/sherlock.jpg";
+import shogun from "../assets/images/shogun.jpg";
 
 export const booksData = [
   {
@@ -21,7 +22,7 @@ export const booksData = [
     id: 2,
     title: "Shōgun",
     author: "James Clavell",
-    image: "shogun",
+    image: shogun,
     description: `After Englishman John Blackthorne is lost at sea, he awakens in a place few Europeans know of and even fewer have seen—Nippon. 
     Blackthorne must negotiate not only a foreign people, with unknown customs and language, but also his own definitions of morality, truth, and freedom. 
     His’s loyalty and strength of character are tested by both passion and loss, and he is torn between two worlds that will each be forever changed.`,

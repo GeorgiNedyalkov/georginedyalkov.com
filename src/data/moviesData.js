@@ -4,11 +4,12 @@ import inglorious_basterds from "../assets/images/inglorious_basterds.jpg";
 import boiling_point from "../assets/images/boiling_point.jpg";
 import dark_knight_rises from "../assets/images/dark_knight_rises.jpg";
 import star_wars from "../assets/images/star_wars.jpg";
+import lotr from "../assets/images/lotr.jpg";
 
 export const moviesData = [
   {
     id: 1,
-    image: "lords",
+    image: lotr,
     title: "Lord of the Rings",
     director: "Peter Jackson",
     plot: `A meek Hobbit from the Shire and eight companions set out on a 
