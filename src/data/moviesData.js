@@ -9,7 +9,7 @@ import star_wars from "../assets/images/star_wars.jpg";
 export const moviesData = [
   {
     id: 1,
-    image: lord_of_the_rings,
+    image: "lords",
     title: "Lord of the Rings",
     director: "Peter Jackson",
     plot: `A meek Hobbit from the Shire and eight companions set out on a 
