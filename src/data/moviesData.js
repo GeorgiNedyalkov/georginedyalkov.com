@@ -1,4 +1,3 @@
-import lord_of_the_rings from "../assets/images/lord_of_the_rings.jpg";
 import snatch from "../assets/images/snatch.jpg";
 import revolver from "../assets/images/revolver.jpg";
 import inglorious_basterds from "../assets/images/inglorious_basterds.jpg";
