@@ -9,9 +9,11 @@ const Project = ({ name, description, date, demo, code }) => {
       </div>
       <p className="project__description">{description}</p>
       <ul className="project__links">
-        <li className="project__link">
-          <a href={demo}>Demo </a>
-        </li>
+        {demo && (
+          <li className="project__link">
+            <a href={demo}>Demo </a>
+          </li>
+        )}
         <li className="project__link">
           <a href={code}>Source</a>
         </li>

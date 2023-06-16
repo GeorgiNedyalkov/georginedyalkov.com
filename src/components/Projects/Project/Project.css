@@ -1,6 +1,5 @@
 .project {
-    max-width: 400px;
-    min-width: 300px;
+    max-width: 350px;
     padding: 40px;
     border-radius: var(--radius);
     background-color: var(--background--projects)
@@ -10,11 +9,11 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
+    gap: 30px;
 }
 
 .project__name {
     margin-bottom: 0;
-    max-width: 200px;
     font-size: 1.2rem;
     color: var(--secondary-yellow-500);
 }
