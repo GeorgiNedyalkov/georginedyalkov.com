@@ -22,10 +22,10 @@ const Home = ({ projects }) => {
             development company called Atlantis Bulgaria Holding.
           </p>
           <p>
-            For the past year I have been learning how to code by myself first
-            and then with SoftUni so that I can calibrate what I know with best
-            practices. I have one more semester to complete the JavaScript
-            developer path.
+            I have been learning how to code, for a little over a year now, by
+            myself at first and then with SoftUni so that I can validate what I
+            know with best practices. I have one more semester to complete the
+            JavaScript developer path.
           </p>
         </div>
       </section>
