@@ -14,7 +14,7 @@ export const projectsData = [
     description: `Create and share your artwork with others. 
     Full stack CRUD application built with React and Express`,
     date: 2023,
-    demo: "/",
+    demo: "https://art-hub-client.vercel.app/",
     code: "https://github.com/GeorgiNedyalkov/artHub",
   },
   {
