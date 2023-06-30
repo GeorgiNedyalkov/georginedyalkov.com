@@ -1,8 +1,26 @@
 .books__section {
     display: flex;
-    height: 500px;
+    flex-direction: column;
 }
 
 .books__list {
-    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .books__section {
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .books__list {
+        width: 300px;
+        flex-direction: column;
+        gap: 0px;
+    }
 }
