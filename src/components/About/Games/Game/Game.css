@@ -1,13 +1,36 @@
 .game {
     display: flex;
+    flex-direction: column;
     border-radius: 20px;
     background-color: var(--primary-indigo-950);
     color: var(--primary-indigo-50);
     margin-bottom: 20px;
 }
 
+.game__info__container {
+    padding: 30px;
+    width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    .game {
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px;
+    }
+
+    .game__image__container {
+        width: 40%;
+    }
+
+    .game__info__container {
+        width: 60%;
+    }
+
+}
+
 .game__image__container {
-    width: 60%;
+    width: 100%;
 }
 
 .game__image {
@@ -19,10 +42,6 @@
     display: block;
 }
 
-.game__info__container {
-    padding: 30px;
-    width: 300px;
-}
 
 .game__title {
     color: var(--secondary-yellow-700);
@@ -36,6 +55,7 @@
 }
 
 .game__description {
+    width: 100%;
     color: var(--secondary-yellow-100);
 }
 
