@@ -9,9 +9,7 @@ export const booksData = [
     title: "The War of Art",
     author: "Stevem Pressfield",
     image: war_of_art,
-    description: `The War of Art has inspired people around the world to defeat "Resistance"; 
-    to recognize and knock down dream-blocking barriers and to silence the naysayers within us.Resistance kicks everyone's butt, 
-    and the desire to defeat it is equally as universal. The War of Art identifies the enemy that every one of us must face, 
+    description: `The War of Art identifies the enemy that every one of us must face - "Resistance", 
     outlines a battle plan to conquer this internal foe, then pinpoints just how to achieve the greatest success.`,
     genre: "Personal development",
     link: "https://www.amazon.com/War-Art-Steven-Pressfield-ebook/dp/B007A4SDCG/ref=sr_1_1?keywords=war+of+art&s=digital-text&sr=1-1",
@@ -23,9 +21,8 @@ export const booksData = [
     title: "Shōgun",
     author: "James Clavell",
     image: shogun,
-    description: `After Englishman John Blackthorne is lost at sea, he awakens in a place few Europeans know of and even fewer have seen—Nippon. 
-    Blackthorne must negotiate not only a foreign people, with unknown customs and language, but also his own definitions of morality, truth, and freedom. 
-    His’s loyalty and strength of character are tested by both passion and loss, and he is torn between two worlds that will each be forever changed.`,
+    description: `Englishman John Blackthorne is lost at sea, he awakens in a place few Europeans know of and even fewer have seen—Nippon. 
+    Blackthorne must negotiate not only a foreign people, with unknown customs and language, but also his own definitions of morality, truth, and freedom.`,
     genre: "Fiction",
     link: "https://www.amazon.com/Sh%C5%8Dgun-Asian-Saga-Book-1-ebook/dp/B0BVXSYMD8/ref=sr_1_1?keywords=shogun&s=digital-text&sr=1-1",
     sample:
