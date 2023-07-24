@@ -15,7 +15,6 @@
     .books__section {
         display: flex;
         flex-direction: row;
-        height: 500px;
     }
 
     .books__list {
