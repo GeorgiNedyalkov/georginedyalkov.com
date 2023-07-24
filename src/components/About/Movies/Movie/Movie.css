@@ -1,8 +1,15 @@
 .movie {
     display: flex;
     align-items: start;
+    flex-direction: column-reverse;
     justify-content: space-between;
     gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .movie {
+        flex-direction: row;
+    }
 }
 
 .movie__image__container {
@@ -17,7 +24,7 @@
 }
 
 .movie__info {
-    width: 900px;
+    min-width: 200px;
 }
 
 .movie__btn {

@@ -1,5 +1,4 @@
 import Book from "./Book/Book";
-
 import "./Books.css";
 
 const Books = ({ books, onBookMouseOver, currentBookIndex }) => {

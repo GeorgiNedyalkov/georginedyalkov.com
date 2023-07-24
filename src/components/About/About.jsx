@@ -148,29 +148,15 @@ const Excerpt = () => {
       </p>
       <p>
         Currently a student in SoftUni with a one more semester of getting my
-        degree. The course I am currently on focuses on deepening my knowledge
-        on JavaScript with modules such as: arrays, objects and composition,
+        degree. I am currently on focused on deepening my knowledge on
+        JavaScript with modules such as: arrays, objects and composition,
         classes, prototypes and inheritance, DOM manipulation and events,
-        advanced functions, unit testing, etc. After which I have one more
-        course where we will learn about JavaScript applications and concepts
-        such as HTTP, REST services, async programming, authentication,
-        architecture and testing, single page applications, routing, client side
-        rendering and more.
+        advanced functions, unit testing, and other fundamental concepts.
       </p>
       <p>
         I have also taken a course on back-end development with node and build
         express applications. I learned about concepts like authorization,
         encryption, databases, CRUD operations, MVC framework.
-      </p>
-      <p>
-        In my final year of university in 2017 I had to write a dissertation as
-        my last project. At the same time my father introduced me to blockchain
-        and cryptocurrencies This technology seemed fascinating to me and after
-        that I have been learning all about crypto, blockchain technology,
-        non-fungible tokens and the idea of decentralization itself. I have done
-        a course in SoftUni and tested writing some smart contracts myself. It
-        is one of the industries I am most excited about and would love to one
-        day work in a project like this.
       </p>
     </div>
   );

@@ -1,7 +1,13 @@
 .movies {
     display: flex;
-    gap: 200px;
-    height: 400px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .movies {
+        flex-direction: row;
+    }
 }
 
 .movies__list {
