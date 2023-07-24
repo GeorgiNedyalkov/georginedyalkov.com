@@ -18,10 +18,13 @@ const Books = ({ books, onBookMouseOver, currentBookIndex }) => {
   );
 
   return (
-    <div className="books__section">
-      <div className="books__section-left">{bookList}</div>
-      <div className="books__section-right">
-        <Book {...books[currentBookIndex - 1]} />
+    <div className="about__section">
+      <h3 className="about__heading">Books</h3>
+      <div className="books__section">
+        <div className="books__section-left">{bookList}</div>
+        <div className="books__section-right">
+          <Book {...books[currentBookIndex - 1]} />
+        </div>
       </div>
     </div>
   );

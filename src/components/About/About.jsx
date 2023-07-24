@@ -74,25 +74,17 @@ const About = () => {
           </p>
         </div>
 
-        <div className="about__section">
-          <h3 className="about__heading">Books</h3>
+        <Books
+          books={books}
+          currentBookIndex={currentBookIndex}
+          onBookMouseOver={onBookMouseOver}
+        />
 
-          <Books
-            books={books}
-            onBookMouseOver={onBookMouseOver}
-            currentBookIndex={currentBookIndex}
-          />
-        </div>
-
-        <div className="about__section">
-          <h3 className="about__heading">Movies and Shows</h3>
-
-          <Movies
-            movies={movies}
-            currentMovieIndex={currentMovieIndex}
-            onMovieMouseOver={onMovieMouseOver}
-          />
-        </div>
+        <Movies
+          movies={movies}
+          currentMovieIndex={currentMovieIndex}
+          onMovieMouseOver={onMovieMouseOver}
+        />
 
         <div className="about__section">
           <h3 className="about__heading">Music</h3>
