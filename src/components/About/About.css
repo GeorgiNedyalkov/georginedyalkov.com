@@ -8,15 +8,8 @@
 }
 
  .about__section {
-        margin-bottom: 50px;
-    }
-
-@media screen and (min-width: 768px) {
-    .container {
-        width: var(--content-width-medium);
-        margin: 0 auto;
-    }
-}
+     margin-bottom: 50px;
+ }
 
 .genres {
     width: 100%;
@@ -24,12 +17,6 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-    .genres {
-        margin-bottom: 0px;
-    }
 }
 
 .genre {
@@ -40,6 +27,21 @@
     border: 1px solid var(--primary-indigo-300);
     color: var(--primary-indigo-300);
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: var(--content-width-medium);
+        margin: 0 auto;
+    }
+
+    .about__section {
+        margin-bottom: 100px;
+    }
+
+    .genres {
+        margin-bottom: 0px;
+    }
 }
 
 .genre:hover { 
