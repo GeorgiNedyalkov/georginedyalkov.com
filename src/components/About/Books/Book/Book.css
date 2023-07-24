@@ -1,8 +1,15 @@
 .book {
     display: flex;
+    flex-direction: column;
     align-items: start;
     gap: 20px;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .book {
+        flex-direction: row;
+    }
 }
 
 .book__image__container {
@@ -16,7 +23,7 @@
 }
 
 .book__info__container {
-    width: 500px;
+    max-width: 500px;
 }
 
 .book__author {
