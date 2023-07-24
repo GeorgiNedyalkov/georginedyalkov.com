@@ -3,14 +3,13 @@ import { useState } from "react";
 import AudioPlayer from "../AudioPlayer/AudioPlayer";
 import Game from "./Games/Game/Game";
 import Books from "./Books/Books";
+import Movies from "./Movies/Movies";
 
 import { tracks } from "../../data/tracksList";
 import { booksData } from "../../data/booksData";
 import { gamesData } from "../../data/gamesData";
-
-import "./About.css";
 import { moviesData } from "../../data/moviesData";
-import Movies from "./Movies/Movies";
+import "./About.css";
 
 const About = () => {
   const [trackIndex, setTrackIndex] = useState(0);
