@@ -13,21 +13,24 @@ import { projectsData } from "./data/projectsData";
 import "./App.css";
 
 function App() {
-  const [projects, setProjects] = useState(projectsData);
+    const [projects, setProjects] = useState(projectsData);
 
-  return (
-    <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home projects={projects} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects projects={projects} />} />
-        <Route path="/writing" element={<Writing />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home projects={projects} />} />
+                <Route path="/about" element={<About />} />
+                <Route
+                    path="/projects"
+                    element={<Projects projects={projects} />}
+                />
+                <Route path="/writing" element={<Writing />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
