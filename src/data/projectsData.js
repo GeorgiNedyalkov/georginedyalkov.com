@@ -1,11 +1,14 @@
 export const projectsData = [
     {
         id: 1,
-        name: "georginedyalkov.com",
-        description: `The source code of this website. Developed with React JS.`,
-        date: 2023,
-        code: "https://github.com/GeorgiNedyalkov/georgi_nedyalkov",
+        name: "Interior Customiser",
+        description:
+            "A website that helps home buyers customise their dream home.",
+        date: 2022,
+        demo: "/https://interior-customizer-qxyg.vercel.app/",
+        code: "https://github.com/GeorgiNedyalkov/interior-customizer/tree/main",
     },
+
     {
         id: 2,
         name: "Art Hub",
@@ -26,12 +29,10 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: "Interior Customiser",
-        description:
-            "A website that helps home buyers customise their dream home.",
-        date: 2022,
-        demo: "/https://interior-customizer-qxyg.vercel.app/",
-        code: "https://github.com/GeorgiNedyalkov/interior-customizer/tree/main",
+        name: "georginedyalkov.com",
+        description: `The source code of this website. Developed with React JS.`,
+        date: 2023,
+        code: "https://github.com/GeorgiNedyalkov/georgi_nedyalkov",
     },
 ];
 

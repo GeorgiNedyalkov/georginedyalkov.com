@@ -1,6 +1,7 @@
 import React from "react";
 
 import Project from "./Project/Project";
+import "./Projects.css";
 
 const Projects = ({ projects }) => {
     return (
