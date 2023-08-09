@@ -16,7 +16,7 @@ function App() {
     const [projects, setProjects] = useState(projectsData);
 
     return (
-        <div className="App">
+        <div id="top" className="App">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home projects={projects} />} />
