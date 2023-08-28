@@ -1,16 +1,6 @@
 export const projectsData = [
     {
         id: 1,
-        name: "Interior Customiser",
-        description:
-            "A website that helps home buyers customise their dream home.",
-        date: 2022,
-        demo: "/https://interior-customizer-qxyg.vercel.app/",
-        code: "https://github.com/GeorgiNedyalkov/interior-customizer/tree/main",
-    },
-
-    {
-        id: 2,
         name: "Art Hub",
         description: `Create and share your artwork with others. 
     Full stack CRUD application built with React and Express`,
@@ -19,13 +9,22 @@ export const projectsData = [
         code: "https://github.com/GeorgiNedyalkov/artHub",
     },
     {
-        id: 3,
+        id: 2,
         name: "Real Estate Web Scraper",
         description:
             "A web scraper and statistics analyser for real estate market prices.",
         date: 2022,
         demo: "/",
         code: "https://github.com/GeorgiNedyalkov/real-estate-web-scraper",
+    },
+    {
+        id: 3,
+        name: "Interior Customiser",
+        description:
+            "A website that helps home buyers customise their dream home.",
+        date: 2022,
+        demo: "/https://interior-customizer-qxyg.vercel.app/",
+        code: "https://github.com/GeorgiNedyalkov/interior-customizer/tree/main",
     },
     {
         id: 4,
