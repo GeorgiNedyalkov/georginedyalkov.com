@@ -34,6 +34,13 @@ export const projectsData = [
         date: 2023,
         code: "https://github.com/GeorgiNedyalkov/georgi_nedyalkov",
     },
+    {
+        id: 5,
+        name: "Real Estate Buy and Hold Calculator",
+        description: `Calculate your profitability, expenses and loan details to make better investment decisions.`,
+        date: 2023,
+        code: "https://github.com/GeorgiNedyalkov/real-estate-investment-tools.git",
+    },
 ];
 
 // SOFTUNI PROJECTS
