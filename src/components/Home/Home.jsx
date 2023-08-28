@@ -1,9 +1,9 @@
 import Hero from "../Hero/Hero";
 import Contact from "../ContactForm/ContactForm";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 import "./Home.css";
-import Skills from "../Skills/Skills";
 
 const Home = ({ projects }) => {
     return (
