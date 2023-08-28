@@ -29,7 +29,7 @@ const skills = [
         icon: <MdOutlineScreenSearchDesktop className="skill__icon" />,
         title: "Front-end",
         description:
-            "Building ideas that solve problems with beautiful, simple and efficient applications",
+            "Creating User Interfaces for full stack applications with an efficient, clean and simple design",
         technologies: [
             "HTML5",
             "CSS3",
