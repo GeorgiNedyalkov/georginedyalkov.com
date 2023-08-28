@@ -36,7 +36,8 @@ export const projectsData = [
     {
         id: 5,
         name: "Property Buy and Hold Calculator",
-        description: `Calculate your profitability, income, expenses and make better investment decisions.`,
+        description: `Calculate your profitability, income, expenses and make better investment decisions.
+        (Work in progress)`,
         date: 2023,
         code: "https://github.com/GeorgiNedyalkov/real-estate-investment-tools.git",
     },
