@@ -27,12 +27,15 @@ const Home = ({ projects }) => {
                         fundamentals of web development, designing and building
                         full stack applications that solve problems from my work
                         experience as a real estate marketing and sales
-                        development. Part of my job was to create make a monthly
-                        market analysis report which was a manual, repetitive
-                        and time—consuming task. My first application did all
-                        the work manually and saved me lots of hours and pains,
-                        thus igniting my spark to create tools that help solve
-                        real world problems.
+                        development.
+                    </p>
+                    <p>
+                        Part of my job was to create make a monthly market
+                        analysis report which was a manual, repetitive and
+                        time—consuming task. My first application did all the
+                        work manually and saved me lots of hours and pains, thus
+                        igniting my spark to create tools that help solve real
+                        world problems.
                     </p>
                 </div>
             </section>
