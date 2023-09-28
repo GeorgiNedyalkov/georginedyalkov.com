@@ -38,7 +38,6 @@ const skills = [
             "React",
             "Next.js",
             "Unit testing",
-            "Jest",
         ],
     },
     {
