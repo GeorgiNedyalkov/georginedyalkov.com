@@ -68,3 +68,18 @@
         gap: 20px;
     }
 }
+
+.cookieBanner {
+    background-color: #28282d; 
+    border: 1px solid #28282d;
+    border-radius: 3px; 
+    padding: 10px 16px; 
+    text-decoration: none;
+    color: #fff;
+    font-family: inherit; 
+    font-size: inherit; 
+    font-weight: normal; 
+    line-height: inherit;
+    text-align: left; 
+    text-shadow: none;
+}
